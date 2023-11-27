@@ -1,0 +1,30 @@
+Learning OWL framework -- Your First Component 
+
+`Owl`is a JS library for building UI in Odoo web apps. 
+    - constructed from small, reusable components: buttons, text, and images. 
+        - owl allow these components to be combined and nested to create complex user interfaces. 
+        - owl can be broken down into components, making it easy to create reusable UI elements. 
+
+Components: UI building blocks 
+
+<article> 
+    <h1> My First Component </h1> 
+    <ol> 
+        <li>Components: UI Building Blocks </li> 
+        <li>Defining a Component </li>
+        <li>Using a Component </li> 
+    </ol>
+</article> 
+
+Owl lets you encapsulate those elements: article, h1, ol into single component along with its markup, CSS, and JS into custom components.
+You can customize how its rendered in many ways and control its interactivity so it can be distributed to be resuable. 
+
+<PageHeader> 
+    <Searchbar/> 
+</PageHeader> 
+<PageContent> 
+    <Article title="" author=""/> 
+    <Article title="" author=""/> 
+    <Article title="" author=""/> 
+<PageContent> 
+
